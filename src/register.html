@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="./js/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/register.css">
 </head>
+
 <body>
+    <header></header>
+    <section>
+            <p class="memebox_img"><img src="https://cdn.shopify.com/s/files/1/0014/7498/6082/t/108/assets/membox-icon.png?82566" alt=""></p>
+            <ul class="logo flex">
+                <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0014/7498/6082/t/108/assets/kaja.png?82541"
+                            alt=""></a></li>
+                <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0014/7498/6082/t/108/assets/idc.png?82541"
+                            alt=""></a></li>
+                <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0014/7498/6082/t/108/assets/nooni.png?82541"
+                            alt=""></a></li>
+                <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0014/7498/6082/t/108/assets/pony.png?82541"
+                            alt=""></a></li>
+            </ul>
+            <form action="#">
+                <p class="login"><img src="https://cdn.shopify.com/s/files/1/0014/7498/6082/t/108/assets/people-icon.png?82566" alt="">创建一个账户</p>
+                <p class="text">为四个惊人的品牌创建一个帐户。每次都能轻松访问您的订单信息并快速结账！</p>
+                <p><input type="text" placeholder="名字"></p>
+                <p><input type="text" placeholder="姓"></p>
+                <p><input type="text" placeholder="电子邮件"></p>
+                <p><input type="text" placeholder="密码"></p>
+                <p><input type="button" value="我们开工吧！" class="loginBtn"></p>
     
+            </form>
+
+    </section>
+    <footer></footer>
 </body>
+
 </html>
+
+
+<script>
+    $(function () {
+        $("header").load("./head.html");
+        $("footer").load("./footer.html")
+    })
+</script>
